@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>thmsweaver</title>
+    <link href="./styles/normalize.css" rel="stylesheet">
+    <link href="./styles/style.css" rel="stylesheet">
+    <link href="./styles/media_queries.css" rel="stylesheet">
+    <script type="text/javascript" src="./js/vendor/jquery.js"></script>
+    <script type="text/javascript" src="./js/js.js"></script>
+  </head>
+  <body>
+    <img src="images/ThomasWeaver-0469edit.jpg" class="thomas" alt="a picture of me, Thomas Weaver">
+    <div class="candy"></div>
+    <p class="candy-text dropdown">just a div</p>
+    <h1>my name is Thomas.<br>the internet should be a tool to do good.</h1>
+
+    <ul class="navigation">
+      <!--TODO: debug the home link, why does it cause content to not load?-->
+      <span class="dummy-link portfolio"><li>portfolio</li></span>
+      <span class="dummy-link contact"><li>contact</li></span>
+    </ul>
+
+    <ul class="portfolio-dropdown menu">
+      <li>
+        <div class="portfolio-piece">
+          <p class="project-title">let's talk about Wayfaring Tweets</p>
+          <img src="images/triangle-gif.gif" class="arrow-up">
+        </div>
+        <div class="dropdown portfolio-display">
+          <p class="portfolio-description">
+            As people's thoughts seem to be discarded in 140 characters or less, wayfaring-tweets initially sought to recapture these arrays of memories in the context of roadtrips. Developed in the final week of my General Assembly WDI experience, my final project implements Backbone.js, the Twitter Rest API, and includes a gorgeous Leaflet map.
+          </p>
+          <div class="image shared">
+            <a href="http://wayfaring-tweets.herokuapp.com/">
+              <img src="images/wayfaring_thumbnail.jpg" class="portfolio-thumbnail">
+              <h2>see it live</h2>
+            </a>
+            <a href="https://github.com/thmsweaver/wayfaring_tweets">
+              <img src="images/github-icon.png" class="github-thumbnail">
+            </a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="wildfire portfolio-piece">
+          <p class="project-title">let's talk about Wildfire</p>
+          <img src="images/triangle-gif.gif" class="arrow-up">
+        </div>
+        <div class="dropdown portfolio-display">
+          <p class="portfolio-description">
+            Wildfire is an events-promotion tool, designed to help planners generate 'buzz' surrounding their occasion by encouraging potential attendees to log in to Twitter and debate about its possible location and agenda. As tweets are collected, event followers are given additional clues and an increasingly detailed map to help fuel the fire. Deployed with JavaScript + jQuery + Ajax, various Ruby gems, Google Maps, and the Twitter API, this rails project is the product of a week-long General Assembly team sprint emphasizing group scrumming and collaboration, agile development, and version control (git, github).
+          </p>
+          <div class="image shared">
+            <a href="http://wild-fyre.herokuapp.com/"><!-- TODO: insert actual map, in the meantime debug alignment issue -->
+              <img alt="A screen-capture animation showing the different map views as tweets are logged, and the event location iincrementally  revealed." src="http://media.tumblr.com/adb72e7eb066f282068c9b361f600317/tumblr_inline_n7mnnsMS1y1sewwo6.gif" class="portfolio-thumbnail gif">
+              <h2 class="wildfire-h2">see it live</h2>
+            </a>
+            <a href="https://github.com/ab75173/wildfire">
+              <img src="images/github-icon.png" class="github-thumbnail">
+            </a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="supatravel portfolio-piece">
+          <p class="project-title">let's talk about SupaTravel</p>
+          <img src="images/triangle-gif.gif" class="arrow-up">
+        </div>
+        <div class="dropdown portfolio-display">
+          <p class="portfolio-description">
+            Supatravel is a travel themed photo-blogging platform. As the project was intended to simulate an industry scenario, the rails app was developed over a three day sprint in which General Assembly students collaborated while our instructor played the part of a needy and indecisive client. The project provided us with our first major introductory crash course to git and github, and allowed us to experiment with the 'gmaps4rails' gem and 'paperclip'.
+          </p>
+          <div class="image supatravel">
+            <a href="http://supatravel.herokuapp.com/">
+              <img src="images/supatravel.jpg" class="portfolio-thumbnail">
+              <h2>see it live</h2>
+            </a>
+            <a href="https://github.com/BYWallace/supatravel">
+              <img src="images/github-icon.png" class="github-thumbnail">
+            </a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="paintmycity portfolio-piece">
+          <p class="project-title">let's talk about PaintMyCity</p>
+          <img src="images/triangle-gif.gif" class="arrow-up">
+        </div>
+        <div class="dropdown portfolio-display">
+          <p class="portfolio-description">
+            Paintmycity is a platform for users to geo-tag urban artwork in Washington DC. My first Rails application, developed in a weelong sprint at General Assembly, aims to add a guerilla, decentralized, city-wide art gallery to our nation's capital. The project allowed me to experiment with rolling my own user authentication, while experimenting with the gmaps4rails gem.
+          </p>
+          <div class="image shared">
+            <a href="http://paintmycity.herokuapp.com/">
+              <img src="images/paintmycity.jpg" class="portfolio-thumbnail">
+              <h2>see it live</h2>
+            </a>
+            <a href="https://github.com/thmsweaver/paintmycity">
+              <img src="images/github-icon.png" class="github-thumbnail">
+            </a>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <ul class="contact-dropdown menu dropdown">
+      <li><p>let's get in touch</p></li>
+      <li>
+        <a href="https://twitter.com/thmsweaver">
+          <div class="twitter contact-link">
+            <img src="images/twitter-icon.png" class="contact-icon">
+            <p class="contact-text">thmsweaver</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="www.linkedin.com/pub/thomas-weaver/48/2a2/143/">
+          <div class="linkedin contact-link">
+            <img src="images/linkedin-icon.png" class="contact-icon">
+            <p class="contact-text">Thomas Weaver</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/thmsweaver">
+          <div class="github contact-link">
+            <img src="images/github-icon.png" class="contact-icon">
+            <p class="contact-text">thmsweaver</p>
+          </div>
+        </a>
+      </li>
+    </ul>
+
+  </body>
+</html>
+
+
