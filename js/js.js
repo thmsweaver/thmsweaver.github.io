@@ -17,7 +17,9 @@ $(document).ready(function() {
 
   $('.portfolio').click(function() {
     $('.contact-dropdown').addClass('dropdown');
-    $('.portfolio-display').addClass('dropdown');
+    $('.portfolio-display').slideUp();
+    $('.portfolio-piece').removeClass('length');
+    $('.arrow-up').removeClass('arrow-down');
     $('.portfolio-dropdown').removeClass('dropdown');
   });
 
