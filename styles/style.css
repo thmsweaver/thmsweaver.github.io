@@ -85,13 +85,14 @@ a h2 {
   color: #FF6347;
   cursor: pointer;
   font-weight: bold;
-  margin-right: 10px;
+}
+
+.dummy-link li {
+  margin-right: 40px;
 }
 
 .dummy-link:hover {
-  background-color: #786D5F;
-  border-radius: 3px;
-  opacity: 0.7;
+  color: #786D5F;
 }
 
 .github-thumbnail {
