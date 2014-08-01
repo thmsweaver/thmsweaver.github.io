@@ -121,7 +121,7 @@ h1 {
 .supatravel h2 {
   left: 136px;
   position: absolute;
-  top: 120px;
+  top: 110px;
   width: 100%;
 }
 
@@ -152,10 +152,15 @@ h1 {
 }
 
 .my-code {
+  color: #FF6347;
   display: inline-block;
   left: 402px;
   position: absolute;
   top: 17px;
+}
+
+.my-code:hover {
+  color: #786D5F
 }
 
 .portfolio-description {
