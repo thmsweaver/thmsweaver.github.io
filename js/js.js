@@ -1,10 +1,6 @@
 
 $(document).ready(function() {
 
-  $('.candy').click(function() {
-    $('.candy-text').toggleClass('dropdown');
-  });
-
   $(window).resize(function(){
     $('.portfolio-piece').css('width', ($(window).width() / 3) + 'px');
   });

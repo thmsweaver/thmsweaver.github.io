@@ -3,6 +3,7 @@
 <html>
   <head>
     <title>thmsweaver</title>
+    <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
     <link href="./styles/normalize.css" rel="stylesheet">
     <link href="./styles/style.css" rel="stylesheet">
     <link href="./styles/media_queries.css" rel="stylesheet">
@@ -12,7 +13,6 @@
   <body>
     <img src="images/ThomasWeaver-0469edit.jpg" class="thomas" alt="a picture of me, Thomas Weaver">
     <div class="candy"></div>
-    <p class="candy-text dropdown">just a div</p>
     <h1>my name is Thomas.<br>the internet should be a tool to do good.</h1>
 
     <ul class="navigation">
@@ -23,14 +23,19 @@
 
     <ul class="portfolio-dropdown menu">
       <li>
-        <div class="portfolio-piece">
+        <div class="portfolio-piece length">
           <p class="project-title">Wayfaring Tweets</p>
-          <img src="images/disc_arrow.png" class="arrow-up">
+          <img src="images/arrow.png" class="arrow-up arrow-down">
         </div>
-        <div class="dropdown portfolio-display">
-          <p class="portfolio-description">
-            As people's thoughts seem to be discarded in 140 characters or less, wayfaring-tweets initially sought to recapture these arrays of memories in the context of roadtrips. Developed in the final week of my General Assembly WDI experience, my final project implements Backbone.js, the Twitter Rest API, and includes a gorgeous Leaflet map.
-          </p>
+        <div class="portfolio-display">
+          <ul class="portfolio-description">
+            <li>
+              Travel, tweet throughout your trip, and Wayfaring-Tweets will allow you to recount your journey on a gorgeous Leaflet map.
+            </li>
+            <li>
+              Individually developed in the final week of my General Assembly experience implementing Ruby on Rails, Backbone.js, Leaflet.js, and the Twitter Rest API.
+            </li>
+          </ul>
           <div class="image shared">
             <a href="http://wayfaring-tweets.herokuapp.com/">
               <img src="images/wayfaring_thumbnail.jpg" class="portfolio-thumbnail">
@@ -38,6 +43,7 @@
             </a>
             <a href="https://github.com/thmsweaver/wayfaring_tweets">
               <img src="images/github-icon.png" class="github-thumbnail">
+              <p class="my-code">or checkout my code</p>
             </a>
           </div>
         </div>
@@ -45,12 +51,23 @@
       <li>
         <div class="wildfire portfolio-piece">
           <p class="project-title">Wildfire</p>
-          <img src="images/disc_arrow.png" class="arrow-up">
+          <img src="images/arrow.png" class="arrow-up">
         </div>
         <div class="dropdown portfolio-display">
-          <p class="portfolio-description">
-            Wildfire is an events-promotion tool, designed to help planners generate 'buzz' surrounding their occasion by encouraging potential attendees to log in to Twitter and debate about its possible location and agenda. As tweets are collected, event followers are given additional clues and an increasingly detailed map to help fuel the fire. Deployed with JavaScript + jQuery + Ajax, various Ruby gems, Google Maps, and the Twitter API, this rails project is the product of a week-long General Assembly team sprint emphasizing group scrumming and collaboration, agile development, and version control (git, github).
-          </p>
+          <ul class="portfolio-description">
+            <li>
+              Wildfire is an events-promotion tool, designed to help planners generate buzz surrounding their occasion.
+            </li>
+            <li>
+              Clues are published on twitter, causing potential attendees to debate the event's location and agenda.
+            </li>
+            <li>
+              The map begins to zoom-in as tweets are collected, fueling the fire.
+            </li>
+            <li>
+              Developed as a group project using Ruby on Rails, JavaScript + jQuery + Ajax, various Ruby gems, Google Maps, and the Twitter API
+            </li>
+          </ul>
           <div class="image shared">
             <a href="http://wild-fyre.herokuapp.com/"><!-- TODO: insert actual map, in the meantime debug alignment issue -->
               <img alt="A screen-capture animation showing the different map views as tweets are logged, and the event location iincrementally  revealed." src="http://media.tumblr.com/adb72e7eb066f282068c9b361f600317/tumblr_inline_n7mnnsMS1y1sewwo6.gif" class="portfolio-thumbnail gif">
@@ -58,6 +75,7 @@
             </a>
             <a href="https://github.com/ab75173/wildfire">
               <img src="images/github-icon.png" class="github-thumbnail">
+              <p class="my-code">or checkout my code</p>
             </a>
           </div>
         </div>
@@ -65,12 +83,20 @@
       <li>
         <div class="supatravel portfolio-piece">
           <p class="project-title">SupaTravel</p>
-          <img src="images/disc_arrow.png" class="arrow-up">
+          <img src="images/arrow.png" class="arrow-up">
         </div>
         <div class="dropdown portfolio-display">
-          <p class="portfolio-description">
-            Supatravel is a travel themed photo-blogging platform. As the project was intended to simulate an industry scenario, the rails app was developed over a three day sprint in which General Assembly students collaborated while our instructor played the part of a needy and indecisive client. The project provided us with our first major introductory crash course to git and github, and allowed us to experiment with the 'gmaps4rails' gem and 'paperclip'.
-          </p>
+          <ul class="portfolio-description">
+            <li>
+              Supatravel is a travel themed photo-blogging platform with geo-location functionality.
+            </li>
+            <li>
+              Completed over a three day sprint to mimick industry scenarios, included a stand-in needy and indecisive client.
+            </li>
+            <li>
+              Developed with Ruby on Rails using gmaps4rails gem and paperclip
+           </li>
+          </ul>
           <div class="image supatravel">
             <a href="http://supatravel.herokuapp.com/">
               <img src="images/supatravel.jpg" class="portfolio-thumbnail">
@@ -78,6 +104,7 @@
             </a>
             <a href="https://github.com/BYWallace/supatravel">
               <img src="images/github-icon.png" class="github-thumbnail">
+              <p class="my-code">or checkout my code</p>
             </a>
           </div>
         </div>
@@ -85,12 +112,17 @@
       <li>
         <div class="paintmycity portfolio-piece">
           <p class="project-title">PaintMyCity</p>
-          <img src="images/disc_arrow.png" class="arrow-up">
+          <img src="images/arrow.png" class="arrow-up">
         </div>
         <div class="dropdown portfolio-display">
-          <p class="portfolio-description">
-            Paintmycity is a platform for users to geo-tag urban artwork in Washington DC. My first Rails application, developed in a weelong sprint at General Assembly, aims to add a guerilla, decentralized, city-wide art gallery to our nation's capital. The project allowed me to experiment with rolling my own user authentication, while experimenting with the gmaps4rails gem.
-          </p>
+          <ul class="portfolio-description">
+            <li>
+              Paintmycity is a platform for users to geo-tag urban artwork in Washington DC.
+            </li>
+            <li>
+              My first Rails application, this project allowed me to experiment with rolling my own user authentication, while experimenting with the gmaps4rails gem.
+            </li>
+          </ul>
           <div class="image shared">
             <a href="http://paintmycity.herokuapp.com/">
               <img src="images/paintmycity.jpg" class="portfolio-thumbnail">
@@ -98,6 +130,7 @@
             </a>
             <a href="https://github.com/thmsweaver/paintmycity">
               <img src="images/github-icon.png" class="github-thumbnail">
+              <p class="my-code">or checkout my code</p>
             </a>
           </div>
         </div>
