@@ -3,6 +3,7 @@ $(document).ready(function() {
 
   $(window).resize(function(){
     $('.portfolio-piece').css('width', ($(window).width() / 3) + 'px');
+    $('.contact-link').css('width', ($(window).width() / 3) + 'px');
   });
 
   $('.portfolio-piece').click(function() {
@@ -12,16 +13,16 @@ $(document).ready(function() {
   });
 
   $('.portfolio').click(function() {
-    $('.contact-dropdown').addClass('dropdown');
+    $('.contact-dropdown').hide();
     $('.portfolio-display').slideUp();
     $('.portfolio-piece').removeClass('length');
     $('.arrow-up').removeClass('arrow-down');
-    $('.portfolio-dropdown').removeClass('dropdown');
+    $('.portfolio-dropdown').fadeIn();
   });
 
   $('.contact').click(function() {
-    $('.portfolio-dropdown').addClass('dropdown');
-    $('.contact-dropdown').toggleClass('dropdown');
+    $('.portfolio-dropdown').hide();
+    $('.contact-dropdown').fadeIn();
   });
 
 });

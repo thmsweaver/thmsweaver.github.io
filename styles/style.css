@@ -47,17 +47,10 @@ a h2 {
   width: 40px;
 }
 
-.contact-text {
-  display: inline-block;
-  color: white;
-  line-height: normal;
-  margin-left: 10px;
-  vertical-align: middle;
-}
-
 .contact-link {
   background-color: #786D5F;
   border-radius: 3px;
+  box-shadow: 0 3px 0 0 #a2a2a2;
   cursor: pointer;
   height: 50px;
   line-height: 50px;
@@ -77,6 +70,14 @@ a h2 {
   padding-left: 30px;
 }
 
+.contact-text {
+  display: inline-block;
+  color: white;
+  line-height: normal;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
 .dropdown {
   display: none;
 }
@@ -87,12 +88,12 @@ a h2 {
   font-weight: bold;
 }
 
-.dummy-link li {
-  margin-right: 40px;
-}
-
 .dummy-link:hover {
   color: #786D5F;
+}
+
+.dummy-link li {
+  margin-right: 40px;
 }
 
 .github-thumbnail {
@@ -111,33 +112,13 @@ h1 {
   position: relative;
 }
 
-.shared h2 {
-  left: 154px;
-  position: absolute;
-  top: 104px;
-  width: 100%;
-}
-
-.supatravel h2 {
-  left: 136px;
-  position: absolute;
-  top: 110px;
-  width: 100%;
-}
-
 .image {
   position: relative;
   width: 100%;
 }
 
-.navigation {
-  margin-left: 503px;
-  margin-top: 40px;
-  position: relative;
-}
-
-.navigation li {
-  display: inline-block;
+.length {
+  padding-right: 200px;
 }
 
 .menu {
@@ -163,6 +144,16 @@ h1 {
   color: #786D5F
 }
 
+.navigation {
+  margin-left: 503px;
+  margin-top: 40px;
+  position: relative;
+}
+
+.navigation li {
+  display: inline-block;
+}
+
 .portfolio-description {
   list-style: lower-alpha;
   margin-bottom: 0;
@@ -183,6 +174,7 @@ h1 {
 .portfolio-piece {
   background-color: #786D5F;
   border-radius: 3px;
+  box-shadow: 0 3px 0 0 #a2a2a2;
   cursor: pointer;
   height: 50px;
   position: relative;
@@ -199,10 +191,6 @@ h1 {
   -moz-transition: 0.5s;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
-}
-
-.length {
-  padding-right: 200px;
 }
 
 .portfolio-thumbnail {
@@ -232,6 +220,20 @@ h1 {
   line-height: normal;
   margin-left: 20px;
   vertical-align: middle;
+}
+
+.shared h2 {
+  left: 154px;
+  position: absolute;
+  top: 104px;
+  width: 100%;
+}
+
+.supatravel h2 {
+  left: 136px;
+  position: absolute;
+  top: 110px;
+  width: 100%;
 }
 
 .thomas {
