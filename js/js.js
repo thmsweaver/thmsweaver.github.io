@@ -1,4 +1,7 @@
 
+var contact;
+var portfolio;
+
 $(document).ready(function() {
 
   $(window).resize(function(){
@@ -12,17 +15,17 @@ $(document).ready(function() {
     $(this).nextUntil('li').slideToggle();
   });
 
-  $('.portfolio').click(function() {
+  contact = function() {
+    $('.portfolio-dropdown').hide();
+    $('.contact-dropdown').fadeIn();
+  };
+
+  portfolio = function() {
     $('.contact-dropdown').hide();
     $('.portfolio-display').slideUp();
     $('.portfolio-piece').removeClass('length');
     $('.arrow-up').removeClass('arrow-down');
     $('.portfolio-dropdown').fadeIn();
-  });
-
-  $('.contact').click(function() {
-    $('.portfolio-dropdown').hide();
-    $('.contact-dropdown').fadeIn();
-  });
+  };
 
 });
