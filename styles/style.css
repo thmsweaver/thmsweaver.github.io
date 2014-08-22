@@ -1,8 +1,10 @@
 
 /*debug length onClick*/
 
-body {
+html, body {
   font-family: 'Muli', sans-serif;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
 }
 
 a {
