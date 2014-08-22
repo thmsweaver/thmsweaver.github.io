@@ -7,7 +7,6 @@ $(document).ready(function() {
   });
 
   $('.portfolio-piece').click(function() {
-    $(this).toggleClass('length');
     $(this).children().eq(1).toggleClass('arrow-down');
     $(this).nextUntil('li').slideToggle();
   });
