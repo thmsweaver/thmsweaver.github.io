@@ -1,0 +1,20 @@
+
+/*debug length onClick*/
+
+html, body {
+  font-family: 'Muli', sans-serif;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+.main {
+  margin-left: 22%;
+}
+
+.stairs {
+  border-radius: 2px;
+  float: left;
+  margin:  2%;
+  max-width: 20%;
+}
+
