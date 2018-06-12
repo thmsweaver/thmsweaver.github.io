@@ -15,15 +15,16 @@ li h3 {
 }
 
 .main {
-    max-width: 350px;
+    max-width: 22%;
     margin: 0 auto !important;
     float: none !important;
 }
 
 .img-container {
-   width: 350px;
-   overflow: hidden;
-   margin:0;
+    border-radius: 2px;
+    max-width: 100%;
+    overflow: hidden;
+    margin:0;
 }
 
 .img-container .stairs {
@@ -35,25 +36,28 @@ li h3 {
 }
 
 .stairs {
-    border-radius: 2px;
     height: auto;
     margin-bottom: -30px;
     margin-top: -95px;
-    width: 350px;
+    max-width: 100%;
 }
 
- #navbar ul {
+.navbar {
+    margin-top: 10px;
+}
+
+.navbar ul {
     margin: 0;
     padding: 5px;
     list-style-type: none;
     text-align: center;
 }
 
-#navbar ul li {
+.navbar ul li {
     display: inline;
 }
 
-#navbar ul li a {
+.navbar ul li a {
     text-decoration: none;
     padding: .2em 1em;
 }
